@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-28",
+  "currency": "usd",
+  "products": [
+    {
+      "id": "developer",
+      "name": "Developer",
+      "description": "Perfect for learning, prototyping, and open-source projects",
+      "price": 0,
+      "billing_period": "forever",
+      "stripe_price_id": null,
+      "stripe_product_id": null,
+      "features": {
+        "agents_concurrent": 10,
+        "lucidia_access": "rate-limited",
+        "prism_console": "basic",
+        "support": "community",
+        "repositories": "public-only",
+        "audit_retention_days": 30,
+        "roadchain_storage_gb": 1,
+        "api_requests_per_day": 1000,
+        "sla": "none",
+        "team_members": 1,
+        "compliance": []
+      }
+    },
+    {
+      "id": "professional",
+      "name": "Professional",
+      "description": "Perfect for growing teams, production deployments, and startups",
+      "price": 499,
+      "billing_period": "month",
+      "stripe_price_id": "price_professional_monthly",
+      "stripe_product_id": "prod_professional",
+      "features": {
+        "agents_concurrent": 1000,
+        "lucidia_access": "unlimited",
+        "prism_console": "advanced",
+        "support": "email-chat-24h",
+        "api_requests_per_day": 10000,
+        "sla": "99.5%",
+        "team_members": 5
+      }
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "description": "Perfect for regulated industries and large-scale deployments",
+      "price": null,
+      "billing_period": "custom",
+      "contact_sales": true,
+      "features": {
+        "agents_concurrent": "unlimited",
+        "api_requests_per_day": "unlimited",
+        "sla": "up to 99.99%"
+      }
+    }
+  ]
+}
