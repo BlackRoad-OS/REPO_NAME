@@ -1,0 +1,9 @@
+# BlackRoad Proprietary Repository
+# All files are proprietary and confidential
+
+* text=auto
+*.md text
+*.js text
+*.ts text
+*.json text
+LICENSE linguist-documentation
